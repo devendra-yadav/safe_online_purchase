@@ -15,4 +15,8 @@ Try running some of the following tasks:
 ```shell
 npx hardhat test .\test\onlinePurchaseAgreementTest.js
 npx hardhat run .\deploy.js --network goerli
+
+Make sure you have ".env" file will following variables set
+NODE_URL=<alchemy url>
+PRIVATE_KEY=<private key of your metamask wallet>
 ```
