@@ -7,6 +7,12 @@
 const hre = require("hardhat");
 
 async function main() {
+    const OnlinePurchaseAgreement = await ethers.getContractFactory("OnlinePurchaseAgreement");
+    let value=1000;
+    const onlinePurchaseAgreement = await OnlinePurchaseAgreement.deploy(formatEther(value), {value: formatEther(value)});
+    await onlinePurchaseAgreement.deployed();
+
+    console.log(`Safe Online Purchase contract deployed successfully at ${onlinePurchaseAgreement.address}`);
   
 }
 
