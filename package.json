@@ -1,0 +1,36 @@
+{
+  "name": "safe_online_purchase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devendra-yadav/safe_online_purchase.git"
+  },
+  "keywords": [
+    "solidity",
+    "smart",
+    "contract",
+    "javascript",
+    "safe",
+    "online",
+    "purchase"
+  ],
+  "author": "devendra.yadav@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devendra-yadav/safe_online_purchase/issues"
+  },
+  "homepage": "https://github.com/devendra-yadav/safe_online_purchase#readme",
+  "devDependencies": {
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
